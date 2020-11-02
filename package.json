@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "nr1-testing-intro",
+    "version": "1.22.1",
+    "scripts": {
+        "start": "nr1 nerdpack:serve",
+        "test": "exit 0"
+    },
+    "nr1": {
+        "uuid": "4a7fde0f-a6c0-441a-b81c-17b7177d2a2c"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not ie < 11",
+        "not dead"
+    ]
+}

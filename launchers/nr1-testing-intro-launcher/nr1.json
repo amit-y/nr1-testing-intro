@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "nr1-testing-intro-launcher",
+    "displayName": "Testing NR1 Nerdpacks",
+    "description": "Introduction to testing NR1 nerdpacks",
+    "rootNerdletId": "nr1-testing-intro-nerdlet"
+}
