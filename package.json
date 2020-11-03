@@ -4,7 +4,7 @@
     "version": "1.22.1",
     "scripts": {
         "start": "nr1 nerdpack:serve",
-        "test": "exit 0"
+        "test": "jest"
     },
     "nr1": {
         "uuid": "4a7fde0f-a6c0-441a-b81c-17b7177d2a2c"
@@ -18,5 +18,11 @@
         "last 2 versions",
         "not ie < 11",
         "not dead"
-    ]
+    ],
+    "devDependencies": {
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.1",
+        "babel-jest": "^26.6.2",
+        "jest": "^26.6.2"
+    }
 }
