@@ -8,7 +8,7 @@ This is the companion repo for the brown bag session on **Testing NR1 Nerdpacks*
 
 This repo contains the [presentation](slides.pdf), sample code and a [mock for the NR1 object](__mocks__).
 
-The code in the repo is [tagged](tags). To follow along with the presentation, checkout the tag for the appropriate sections in the presentation.
+The code in the repo is [tagged](../../tags). To follow along with the presentation, checkout the tag for the appropriate sections in the presentation.
 
 ## License
 nr1-testing-intro is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
