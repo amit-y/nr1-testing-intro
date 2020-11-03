@@ -128,7 +128,7 @@ module.exports = {
   // runner: "jest-runner",
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
-  // setupFiles: [],
+  setupFiles: ["<rootDir>/test/utils/setupTests.jsx"],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
@@ -157,7 +157,8 @@ module.exports = {
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   testPathIgnorePatterns: [
     "/node_modules/",
-    "/__mocks__/"
+    "/__mocks__/",
+    "__snapshots__"
   ],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
